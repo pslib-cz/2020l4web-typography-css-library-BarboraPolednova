@@ -1,0 +1,54 @@
+/* tot je můj úplně epesní typografický templejt*/
+body > header {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-top: 0;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    line-height: 1.15;
+    
+    }
+
+body {
+    color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+main {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-top: 0;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    font-weight: 500;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 0.75px;
+}
+    
+
+ul, li {
+    list-style: circle;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
