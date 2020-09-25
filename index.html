@@ -9,14 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="./demo.css">
+    <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
+    <link rel="stylesheet" href="./gallery.css">
 </head>
 
 <body>
     <header>
-        <h1>Typography Template</h1>
-        <h2>Author: Barbora Polednová</h2>
+        <h1 class="titulek">Typography Template</h1>
+        <p class="author"><strong>Author:</strong> Barbora Polednová</p>
+        <p class="date"><strong>Date:</strong> 25.09.2020</p>
     </header>
+    <br>
     <main>
         <article>
             <header>
@@ -35,6 +40,7 @@
                     sequi cupiditate id velit ullam quas reprehenderit iste, aliquid laborum odio dolores nulla,
                     explicabo
                     in unde?</p>
+
                 <h4>This is h4 heading</h4>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quibusdam placeat quidem rerum, corporis
                     sequi cupiditate id velit ullam quas reprehenderit iste, aliquid laborum odio dolores nulla,
@@ -52,7 +58,96 @@
                     in unde?</p>
             </header>
         </article>
+        <article>
+            <div class="thumbnails">
+                <figure>
+                    <a href="./cody-silver-eKB9CoaIUDo-unsplash.jpg">
+                        <img src="./cody-silver-eKB9CoaIUDo-unsplash.jpg" alt="img caption" />
+                        <div>
+                            <p>Image caption 1</p>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </article>
+        <article>
+            <h3>This is ordered list</h3>
+            <ol>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+            </ol>
+            <ol>
+                <ol>
+                    <li>list item</li>
+                    <li>list item</li>
+                </ol>
+                <li>list item</li>
+                <li>list item</li>
+            </ol>
+        </article>
+        <article>
+            <h3>This is unordered list</h3>
+            <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+                <ul>
+                    <li>list item</li>
+                    <li>list item</li>
+                    <li>list item</li>
+                </ul>
+                <li>list item</li>
+            </ul>
+            <ul>
+                <li>list item</li>
+            </ul>
+        </article>
+        <article>
+            <div class="thumbnails">
+                <figure>
+                    <a href="./allec-gomes-q4tXWVhtd9k-unsplash.jpg">
+                        <img src="./allec-gomes-q4tXWVhtd9k-unsplash.jpg" alt="img caption" />
+                        <div>
+                            <p>Image caption 2</p>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </article>
+        <article>
+            <h3>This is how quoting and citing looks like</h3>
+            <blockquote>
+                <h5>Heading of a cite</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sequi esse! Illum impedit ipsam
+                    voluptas nobis fugiat ut reprehenderit minima repudiandae, recusandae earum sequi, sint dolore unde
+                    quisquam aspernatur ducimus.</p>
+                <footer>- Lorem citation, 2020</footer>
+            </blockquote>
+            <blockquote>
+                <h5>Linked quotation</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum a, minus, tenetur magni quas
+                    voluptatibus veritatis odio distinctio iusto fugit porno, similique reprehenderit corrupti est
+                    aspernatur sapiente magnam voluptatum accusamus.</p>
+                <footer>- <a href="https://web.pslib.cz/">www.web.pslib.cz</a></footer>
+            </blockquote>
+        </article>
+        <article>
+            <div class="thumbnails">
+                <figure>
+                    <a href="./pawel-czerwinski-OOFSqPWjCt0-unsplash (1).jpg">
+                        <img src="./pawel-czerwinski-OOFSqPWjCt0-unsplash (1).jpg" alt="img caption" />
+                        <div>
+                            <p>Image caption 3</p>
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </article>
     </main>
 </body>
+<script>
+    new SmartPhoto(".thumbnails figure a");
+</script>
 
 </html>
