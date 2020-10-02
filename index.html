@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typography template</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./typography_style_format.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./demo.css">
+    <link rel="stylesheet" href="./author.css">
     <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
-    <link rel="stylesheet" href="./gallery.css">
+    <link rel="stylesheet" href="./gallery_format.css">
 </head>
 
 <body>
-    <header>
+    <header class="author_introduction">
         <h1 class="titulek">Typography Template</h1>
         <p class="author"><strong>Author:</strong> Barbora Polednová</p>
         <p class="date"><strong>Date:</strong> 25.09.2020</p>
@@ -61,8 +61,8 @@
         <article>
             <div class="thumbnails">
                 <figure>
-                    <a href="./cody-silver-eKB9CoaIUDo-unsplash.jpg">
-                        <img src="./cody-silver-eKB9CoaIUDo-unsplash.jpg" alt="img caption" />
+                    <a href="./images/cody-silver-eKB9CoaIUDo-unsplash.jpg">
+                        <img src="./images/cody-silver-eKB9CoaIUDo-unsplash.jpg" alt="img caption" />
                         <div>
                             <p>Image caption 1</p>
                         </div>
@@ -70,6 +70,34 @@
                 </figure>
             </div>
         </article>
+        <article>
+            <h3>Plain paragraph with some links, strong, bold, emphasis and italic elements</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam <b>sed quod nihil</b> praesentium quae,
+                quisquam
+                vero sapiente laudantium fuga voluptas deleniti ratione voluptatibus in libero autem sequi repellat
+                numquam dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio modi <em>quasi</em> vel
+                facere: <a href="https://web.pslib.cz/">www.pslib.cz</a>, aliquid ipsum necessitatibus molestias a
+                dignissimos nemo illo eum, eaque cumque quibusdam cum
+                voluptatum eius minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam molestiae, non
+                rerum reiciendis a qui magnam sint ut repudiandae explicabo pariatur ad nemo optio. <b>Animi distinctio
+                    facere officia dicta rem!</b>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed quod nihil <a
+                    href="https://web.pslib.cz/">www.pslib.cz</a>, praesentium quae, quisquam
+                vero sapiente laudantium fuga voluptas deleniti ratione <em>voluptatibus in libero</em> autem sequi
+                repellat
+                numquam dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio modi temporibus quasi vel
+                facere: <i><strong>Aliquid ipsum necessitatibus</strong> molestias a dignissimos nemo illo eum,</i>
+                eaque <strong>cumque quibusdam cum
+                    voluptatum eius minus. Lorem ipsum dolor sit <a href="https://web.pslib.cz/">www.pslib.cz</a> amet
+                    consectetur,</strong> adipisicing elit. Quam molestiae, non rerum reiciendis a qui magnam sint ut
+                repudiandae
+                explicabo pariatur ad nemo optio animi distinctio facere officia dicta rem!
+            </p>
+        </article>
+        
         <article>
             <h3>This is ordered list</h3>
             <ol>
@@ -106,8 +134,8 @@
         <article>
             <div class="thumbnails">
                 <figure>
-                    <a href="./allec-gomes-q4tXWVhtd9k-unsplash.jpg">
-                        <img src="./allec-gomes-q4tXWVhtd9k-unsplash.jpg" alt="img caption" />
+                    <a href="./images/sindy-sussengut-UqktoFudIOw-unsplash.jpg">
+                        <img src="./images/sindy-sussengut-UqktoFudIOw-unsplash.jpg" alt="img caption" />
                         <div>
                             <p>Image caption 2</p>
                         </div>
@@ -129,14 +157,14 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum a, minus, tenetur magni quas
                     voluptatibus veritatis odio distinctio iusto fugit porno, similique reprehenderit corrupti est
                     aspernatur sapiente magnam voluptatum accusamus.</p>
-                <footer>- <a href="https://web.pslib.cz/">www.web.pslib.cz</a></footer>
+                <footer>- <a href="https://web.pslib.cz/">www.web.pslib.cz, 2020</a></footer>
             </blockquote>
         </article>
         <article>
             <div class="thumbnails">
                 <figure>
-                    <a href="./pawel-czerwinski-OOFSqPWjCt0-unsplash (1).jpg">
-                        <img src="./pawel-czerwinski-OOFSqPWjCt0-unsplash (1).jpg" alt="img caption" />
+                    <a href="./images/pawel-czerwinski-OOFSqPWjCt0-unsplash (1).jpg">
+                        <img src="./images/pawel-czerwinski-OOFSqPWjCt0-unsplash (1).jpg" alt="img caption" />
                         <div>
                             <p>Image caption 3</p>
                         </div>
@@ -144,8 +172,110 @@
                 </figure>
             </div>
         </article>
+        <article>
+            <h3>Tables, Tables, Tables!</h3>
+            <p>If you are into table stuff, here's a small representation of how would your table look like.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Surname</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Known For</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Oprah</td>
+                        <td>Winfrey</td>
+                        <td>66</td>
+                        <td>Female</td>
+                        <td>television production, acting, talk show hosting</td>
+                    </tr>
+                    <tr>
+                        <td>Morgan</td>
+                        <td>Freeman</td>
+                        <td>83</td>
+                        <td>Male</td>
+                        <td>acting, directing, narrating</td>
+                    </tr>
+                    <tr>
+                        <td>Scarlett</td>
+                        <td>Johansson</td>
+                        <td>35</td>
+                        <td>Female</td>
+                        <td>acting, singing</td>
+                    </tr>
+                    <tr>
+                        <td>Quentin</td>
+                        <td>Tarantino</td>
+                        <td>57</td>
+                        <td>Male</td>
+                        <td>directing, screenwriting, production, acting</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h3>An article with code samples</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro <code>h1</code>, <code>h2</code>,
+                <code>p</code>, <code>a</code>repellat ratione error natus
+                debitis quo, aspernatur ab ullam, labore ipsam eligendi<code>section</code> + <code>article</code> iusto
+                accusamus. <b>Aliquam reiciendis repudiandae
+                    asperiores:</b> <code>br</code> + <code>pre</code> = <code>div</code>
+                cumque voluptates. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam libero consequuntur <code>figure</code> & <code>figcaption</code>
+                est sunt optio harum!</p>
+        </article>
+        <article>
+            <h3>Code</h3>
+            <p>The Code tag represents a fragment of computer code. So if you want to show the whole world what kind
+                of master code you have created, its look is as follows:
+            </p>
+            <pre><code>
+                .thumbnails figure.info a:hover div {
+                    visibility: visible;
+                }
+                
+                .thumbnails figure.info a::before {
+                    content: "i";
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    color: black;
+                    background-color: #e0e0e0;
+                    height: 16px;
+                    width: calc(16px + 3px);
+                    text-align: center;
+                    font-weight: 900;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    margin: .5em;
+                    padding-bottom: 3px;
+                    border-radius: 50%;
+                    border: 3px solid #be8024;
+                }
+                
+                .thumbnails figure.info a:hover::before {
+                    color: white;
+                    background-color: gray;
+                }
+                
+                img, figure > a, figure {
+                    /* width: 80%; */
+                    width: 50em;
+                    margin: auto;
+                }                
+                </code></pre>
+        </article>
+        <article>
+            <footer>
+                <p>Created by <a href="index.html">Barbora Polednová</a> for WEB | Autumn 2020 | ©</p>
+            </footer>
+        </article>
     </main>
+    <!-- my footer isn't fkin displaying at the botom :).):).):-->
 </body>
+
 <script>
     new SmartPhoto(".thumbnails figure a");
 </script>
