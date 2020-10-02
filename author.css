@@ -1,0 +1,14 @@
+.author, .date {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.titulek {
+    font-size: 70px;
+    margin-bottom: 0.5em;
+}
+
+.author_introduction {
+    padding-bottom: 0.5em;
+    border-bottom: 0.1rem solid  rgba(106, 125, 116, 0.3);
+}

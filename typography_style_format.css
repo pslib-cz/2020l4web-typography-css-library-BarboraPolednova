@@ -1,0 +1,203 @@
+/* tot je můj úplně epesní typografický templejt*/
+
+/*basics*/
+
+body > header {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 0;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    }
+
+body {
+    color: rgb(34, 34, 34);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 0;
+    height: 100vh;
+}
+
+/*typography*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    margin-bottom: 0.75em;
+    font-weight: 500;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.4;
+}
+
+h2, h3, h4, h5, h6 {margin-top: 1.5em;}
+
+h1 {font-size: 3em; margin-top: 0.5em;}
+h2 {font-size: 2.5em;}
+h3 {font-size: 2em;}
+h4 {font-size: 1.5em;}
+h5 {font-size: 1em;}
+h6 {font-size: 0.75em;}
+
+p {
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 0.75px;
+    line-height: 1.4;
+}
+
+/*links*/
+
+a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(106, 125, 116);
+    font-weight: 600;
+    font-size: auto;
+    text-decoration: none;
+}
+
+/*lists*/
+
+ul, li, ol {
+    font-size: 105%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(99, 99, 99);
+    letter-spacing: 0.75px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+ul {list-style: circle; }
+
+ol {list-style: upper-roman;}
+
+/*quoting, citing*/
+
+blockquote {
+    border-left: rgb(106, 125, 116) 6px solid;
+    padding-left: 0.5em;
+    margin-block-start: 1.75em;
+    margin-block-end: 1.75em;
+    margin-inline-start: 1.5em;
+    margin-inline-end: 1.5em;
+}
+
+blockquote > footer , blockquote > footer > a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(106, 125, 116);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 0;
+    border-top: none;
+}
+
+blockquote > p {font-style: italic;}
+
+/*tables*/
+
+table {
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-spacing: 0;
+    display: block;
+    overflow-x: auto;
+    text-align: left;
+    width: 100%;
+  }
+
+td, th {border-bottom: 0.1em solid  rgba(106, 125, 116, 0.3); padding: 1.2em 1.5em;}
+
+td:first-child, th:first-child {padding-left: 0;}
+
+td:last-child, th:last-child {padding-right: 0;}
+
+/*code examples*/
+
+code {
+    background:rgba(99,99,99,0.05);
+    font-size: 90%;
+    padding: .2rem .5rem;
+    white-space: normal;
+    color: rgb(99, 99, 99);
+    border-radius: 0.4em;
+    margin: 0.4em;
+    line-height: 1.25;
+  }
+  
+  pre {
+    /* background: rgba(99,99,99,0.05); */
+    border-left: 1em solid rgb(106, 125, 116);
+    overflow-y: hidden;
+  }
+  
+  pre > code {
+    display: block;
+    padding: 1em 1.5em;
+    white-space: pre;
+    overflow: scroll;
+  }
+
+  /*footer*/
+  footer {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-top: 0.1rem solid  rgba(106, 125, 116, 0.3);
+    padding-top: 0.25em;
+  }
+
+  /*media - responsivity*/
+
+  @media only screen and (max-width: 1300px) {
+     
+    main , body > header {width: 70%;}
+  }
+
+  @media only screen and (max-width: 1024px) {
+    
+    main, body > header {width: 75%;}
+  }
+  
+  @media only screen and (max-width: 900px) {
+      
+    main, body > header {width: 80%;}
+  }
+
+  @media only screen and (max-width: 768px) {
+     
+    main , body > header {width: 85%;}
+    td, th {padding: 0.75em 1em;}
+    h1 ,h2, h3, h4, h5, h6 {margin-top: 1em;}
+    h1 {font-size: 2.5em; margin-top: 0.5em;}
+    h2 {font-size: 2em;}
+    h3 {font-size: 1.5em;}
+    h4 {font-size: 1em;}
+    h5 {font-size: 0.75em;}
+    h6 {font-size: 0.5em;}
+    blockquote > footer , blockquote > footer > a {font-size: 0.75rem;}
+  }
+
+  @media only screen and (max-width: 600px) {
+      
+    main, body > header {width: 90%;}
+      td, th {padding: 0.75em 0.75em;}
+    h1 ,h2, h3, h4, h5, h6 {margin-top: 1em;}
+    h1 {font-size: 2.5em; margin-top: 0.5em;}
+    h2 {font-size: 2em;}
+    h3 {font-size: 1.5em;}
+    h4 {font-size: 1em;}
+    h5 {font-size: 0.75em;}
+    h6 {font-size: 0.5em;}
+    blockquote > footer , blockquote > footer > a {font-size: 0.75rem;}
+}

@@ -27,9 +27,9 @@
 }
 
 img, figure > a, figure {
-    /* width: 80%; */
     width: 50em;
     margin: auto;
+    height: auto;
 }
 
 .thumbnails>figure {
@@ -43,3 +43,26 @@ img, figure > a, figure {
     font-size: 1.25em;
     color: rgb(99,99,99);
 }
+
+/* media */
+
+@media only screen and (max-width: 1300px) {
+    
+    img, figure > a, figure {width: 100%; height: auto; margin: auto;}
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .thumbnails div {font-size: 1em;}
+  }
+
+  @media only screen and (max-width: 900px) {
+    .thumbnails div {font-size: 1em;}
+  }
+
+  @media only screen and (max-width: 768px) {
+    .thumbnails div {font-size: 0.75em;}
+  }
+
+  @media only screen and (max-width: 600px) {
+    .thumbnails div {font-size: 0.75em;}
+  }
