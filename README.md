@@ -68,7 +68,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 * strong, b, emphasis, i
 * a 
 * ul/ol lists
-* tables and table data
+* tables
   * table
   * th
   * td
