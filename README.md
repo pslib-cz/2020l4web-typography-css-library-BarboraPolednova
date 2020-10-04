@@ -7,21 +7,21 @@ Link to **[demo](http://www.github.io)** site for preview.
 ```
  <link rel="stylesheet" href="./typography_style_format.css">
 ```
- *This is the main CSS file, which includes typography and styling for the **html** tags. It needs to be placed in the <head> of your project.*
+ This is the main CSS file, which includes typography and styling for the **html** tags. It needs to be placed in the head of your project.
 
  ```
  <link rel="stylesheet" href="./gallery_format.css">
  <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
  <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
 ```
-*For **image formating** and **image gallery usage** this fragment has to be copied in <head>.*
+For **image formating** and **image gallery usage** this fragment has to be copied in head.
 
  ```
  <script>
     new SmartPhoto(".thumbnails figure a");
 </script>
 ```
-*To make this whole thing work, this **scrpit** needs to be placed right **under the <body>** of your code.*
+To make this whole thing work, this **scrpit** needs to be placed right **under the body** of your code.
 ## Implementation
 #### Place the code as your *<head>* of your project:
 ```
@@ -48,7 +48,7 @@ Link to **[demo](http://www.github.io)** site for preview.
 ```
 
 #### For complete function of image gallery, the **html structure** for images must look as it follows:
-*(the class **thumbnails** is required for <figure> and <img> tags)
+*(the class **thumbnails** is required for figure and img tags)
  ```
  <div class="thumbnails">
                 <figure>
