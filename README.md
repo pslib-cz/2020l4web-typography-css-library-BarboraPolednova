@@ -48,7 +48,7 @@ To make this whole thing work, this **scrpit** needs to be placed right **under 
 ```
 
 #### For complete function of image gallery, the **html structure** for images must look as it follows:
-*(the class **thumbnails** is required for **figure** and **img** tags)
+(the class **thumbnails** is required for **figure** and **img** tags)
  ```
  <div class="thumbnails">
                 <figure>
