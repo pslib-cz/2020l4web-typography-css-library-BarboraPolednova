@@ -78,7 +78,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 * quoting and citation
   * blockquote
   * cite
-  *headers & footers of citation
+  * headers & footers of citation
 * images
   * figure
 ## Components
