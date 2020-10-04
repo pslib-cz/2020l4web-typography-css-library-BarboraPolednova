@@ -23,7 +23,7 @@ For **image formating** and **image gallery usage** this fragment has to be copi
 ```
 To make this whole thing work, this **scrpit** needs to be placed right **under the body** of your code.
 ## Implementation
-#### Place the code as your *<head>* of your project:
+#### Place the code as your head of your project:
 ```
 <head>
     <meta charset="UTF-8">
@@ -40,7 +40,7 @@ To make this whole thing work, this **scrpit** needs to be placed right **under 
 </head>
 ```
 
-#### Place the following script right under the <body> of your project:
+#### Place the following script right under the body of your project:
  ```
  <script>
     new SmartPhoto(".thumbnails figure a");
@@ -48,7 +48,7 @@ To make this whole thing work, this **scrpit** needs to be placed right **under 
 ```
 
 #### For complete function of image gallery, the **html structure** for images must look as it follows:
-*(the class **thumbnails** is required for figure and img tags)
+*(the class **thumbnails** is required for **figure** and **img** tags)
  ```
  <div class="thumbnails">
                 <figure>
