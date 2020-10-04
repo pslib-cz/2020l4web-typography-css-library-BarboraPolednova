@@ -3,7 +3,7 @@
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
 ## Dependecies
-#### CSS files & Scripts
+### CSS files & Scripts
 ```
  <link rel="stylesheet" href="./typography_style_format.css">
 ```
