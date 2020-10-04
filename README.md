@@ -177,13 +177,6 @@ A minimalist CSS Typography Library for online blog usage with images and simple
                 <td>Female</td>
                 <td>television production, acting, talk show hosting</td>
             </tr>
-            <tr>
-                <td>Morgan</td>
-                <td>Freeman</td>
-                <td>83</td>
-                <td>Male</td>
-                <td>acting, directing, narrating</td>
-            </tr>
         </tbody>
     </table>
 </article>
