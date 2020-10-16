@@ -12,3 +12,7 @@
     padding-bottom: 0.5em;
     border-bottom: 0.1rem solid  rgba(106, 125, 116, 0.3);
 }
+
+body > header {
+    width: 60%;
+}
