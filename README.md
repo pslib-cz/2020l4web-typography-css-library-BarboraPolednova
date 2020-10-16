@@ -3,7 +3,7 @@
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
 ## Dependecies
-#### CSS files & Scripts
+### CSS files & Scripts
 ```
  <link rel="stylesheet" href="./typography_style_format.css">
 ```
@@ -23,7 +23,7 @@ For **image formating** and **image gallery usage** this fragment has to be copi
 ```
 To make this whole thing work, this **scrpit** needs to be placed right **under the body** of your code.
 ## Implementation
-#### Place the code as your *<head>* of your project:
+#### Place the code as your head of your project:
 ```
 <head>
     <meta charset="UTF-8">
@@ -40,7 +40,7 @@ To make this whole thing work, this **scrpit** needs to be placed right **under 
 </head>
 ```
 
-#### Place the following script right under the <body> of your project:
+#### Place the following script right under the body of your project:
  ```
  <script>
     new SmartPhoto(".thumbnails figure a");
@@ -48,7 +48,7 @@ To make this whole thing work, this **scrpit** needs to be placed right **under 
 ```
 
 #### For complete function of image gallery, the **html structure** for images must look as it follows:
-*(the class **thumbnails** is required for figure and img tags)
+(the class **thumbnails** is required for **figure** and **img** tags)
  ```
  <div class="thumbnails">
                 <figure>
@@ -68,7 +68,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 * strong, b, emphasis, i
 * a 
 * ul/ol lists
-* tables and table data
+* tables
   * table
   * th
   * td
@@ -78,7 +78,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 * quoting and citation
   * blockquote
   * cite
-  *headers & footers of citation
+  * headers & footers of citation
 * images
   * figure
 ## Components
@@ -176,13 +176,6 @@ A minimalist CSS Typography Library for online blog usage with images and simple
                 <td>66</td>
                 <td>Female</td>
                 <td>television production, acting, talk show hosting</td>
-            </tr>
-            <tr>
-                <td>Morgan</td>
-                <td>Freeman</td>
-                <td>83</td>
-                <td>Male</td>
-                <td>acting, directing, narrating</td>
             </tr>
         </tbody>
     </table>
