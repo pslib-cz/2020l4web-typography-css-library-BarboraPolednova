@@ -14,5 +14,19 @@
 }
 
 body > header {
-    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 0;
 }
+
+@media only screen and (min-width: 1300px) {
+     
+     body > header {width: 60%;}
+  }
+
+  @media only screen and (max-width: 400px) {
+      header .titulek {
+          font-size: 55px;
+          overflow-wrap: break-word;
+      }
+  }
