@@ -84,7 +84,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 ## Components
 ### Main header of page
 ```
- <header class="author_introduction">
+ <header>
         <h1 class="title">Typography Template</h1>
         <p class="author"><strong>Author:</strong>Your name</p>
         <p class="date"><strong>Date:</strong>dd.mm.yyyy</p>
