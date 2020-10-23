@@ -26,7 +26,7 @@
 
 }
 
-img, figure > a, figure {
+.thumbnails img, figure > a, .thumbnails figure {
     width: 50em;
     margin: auto;
     height: auto;
@@ -48,7 +48,7 @@ img, figure > a, figure {
 
 @media only screen and (max-width: 1300px) {
     
-    img, figure > a, figure {width: 100%; height: auto; margin: auto;}
+   .thumbnails img, figure > a, .thumbnails figure {width: 100%; height: auto; margin: auto;}
   }
 
   @media only screen and (max-width: 1024px) {
