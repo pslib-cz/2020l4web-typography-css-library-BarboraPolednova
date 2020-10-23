@@ -94,7 +94,6 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 
 ### Header of article
 ```
-<main>
     <article class="article">
          <header>
             <h1>This is h1 heading</h1>
@@ -104,7 +103,6 @@ A minimalist CSS Typography Library for online blog usage with images and simple
                     in unde?</p>
         </header>
     </article>
-</main>
 ```
 
 ### Image in article
