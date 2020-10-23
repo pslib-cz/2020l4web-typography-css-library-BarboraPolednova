@@ -1,16 +1,16 @@
 # Typography CSS Library
 **Author:** *Barbora Polednová*
 ## Demo site
-Link to **[demo](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** site for preview.
+View **[demo typography-css-library site](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** for full preview.
 ## Dependecies
 ### CSS files & Scripts
 ```
- <link rel="stylesheet" href="./typography_style_format.css">
+ <link rel="stylesheet" href="typography_style_format.css">
 ```
  This is the main CSS file, which includes typography and styling for the **html** tags. It needs to be placed in the head of your project.
 
  ```
- <link rel="stylesheet" href="./gallery_format.css">
+ <link rel="stylesheet" href="gallery_format.css">
  <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
  <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
 ```
@@ -84,18 +84,17 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 ## Components
 ### Main header of page
 ```
- <header class="author_introduction">
-        <h1 class="titulek">Typography Template</h1>
-        <p class="author"><strong>Author:</strong> Barbora Polednová</p>
-        <p class="date"><strong>Date:</strong> 25.09.2020</p>
+ <header>
+        <h1 class="title">Typography Template</h1>
+        <p class="author"><strong>Author:</strong>Your name</p>
+        <p class="date"><strong>Date:</strong>dd.mm.yyyy</p>
     </header>
     <br>
 ```
 
 ### Header of article
 ```
-<main>
-    <article>
+    <article class="article">
          <header>
             <h1>This is h1 heading</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quibusdam placeat quidem rerum, corporis
@@ -104,12 +103,11 @@ A minimalist CSS Typography Library for online blog usage with images and simple
                     in unde?</p>
         </header>
     </article>
-</main>
 ```
 
 ### Image in article
 ```
-<article>
+<article class="article">
      <div class="thumbnails">
          <figure>
              <a href="./../image.jpg">
@@ -125,7 +123,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 
 ### Lists in article
 ```
-<article>
+<article class="article">
     <h3>This is ordered list</h3>
         <ol>
             <li>list item</li>
@@ -144,7 +142,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 
 ### Citation in article
 ```
-<article>
+<article class="article">
     <h3>This is how quoting and citing looks like</h3>
         <blockquote>
             <h5>Heading of a cite</h5>
@@ -158,7 +156,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 
 ### Table in article
 ```
-<article>
+<article class="article">
     <table>
         <thead>
             <tr>
@@ -184,7 +182,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 
 ### Code fragment in article
 ```
-<article>
+<article class="article">
     <pre><code>
         .thumbnails figure.info a:hover::before {
             color: white;
@@ -202,7 +200,7 @@ A minimalist CSS Typography Library for online blog usage with images and simple
 
 ### Footer
 ```
-<article>
+<article class="article">
     <footer>
         <p>Created by <a href="index.html">Barbora Polednová</a> for WEB | Autumn 2020 | ©</p>
     </footer>
