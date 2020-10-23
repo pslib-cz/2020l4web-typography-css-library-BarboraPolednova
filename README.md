@@ -1,4 +1,4 @@
-# Typography CSS library
+# Typography CSS Library
 **Author:** *Barbora Polednová*
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
