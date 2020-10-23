@@ -1,16 +1,16 @@
 # Typography CSS Library
 **Author:** *Barbora Polednová*
 ## Demo site
-View **[demo site - typography-css-library-](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** for full preview.
+View **[demo typography-css-library site](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** for full preview.
 ## Dependecies
 ### CSS files & Scripts
 ```
- <link rel="stylesheet" href="./typography_style_format.css">
+ <link rel="stylesheet" href="typography_style_format.css">
 ```
  This is the main CSS file, which includes typography and styling for the **html** tags. It needs to be placed in the head of your project.
 
  ```
- <link rel="stylesheet" href="./gallery_format.css">
+ <link rel="stylesheet" href="gallery_format.css">
  <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
  <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
 ```
