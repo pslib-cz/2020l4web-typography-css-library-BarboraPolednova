@@ -1,7 +1,7 @@
 # Typography CSS Library
 **Author:** *Barbora Polednová*
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** site for preview.
 ## Dependecies
 ### CSS files & Scripts
 ```
